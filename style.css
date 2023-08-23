@@ -378,7 +378,7 @@ a.btn {
     overflow: hidden;
 }
 
-.tec {
+.services {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -388,25 +388,26 @@ a.btn {
     
 }
 
-.tec-img {
+.services-layout {
     padding: 20px;
     display: flex;
     gap: 2rem;
     justify-content:space-between;
 
 }
-.tec h2 {
+.services h2 {
     margin-top: 20px;
     margin-bottom: 40px;
     font-size: 2rem;
 }
-.tech {
+.servi {
     background-color: #0b1721;
     width: 20vw;
     height: 20vw;
     border: 3px solid #031421;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content:flex-start;
     align-items: center;
     text-align: center;
 }
@@ -416,5 +417,15 @@ a.btn {
     display: flex;
     width: 10vw;
  
+}
+
+.servi h3 {
+    margin-top: 30px;
+}
+
+.servi h6 {
+    margin-top: 30px;
+    font-size: 0.85rem;
+    font-weight: 300;
 }
 
