@@ -1,0 +1,76 @@
+:root {
+    --primary-100:#5CB85C;
+    --primary-200:#3d9a41;
+    --primary-300:#005900;
+    --accent-100:#8BC34A;
+    --accent-200:#286400;
+    --text-100:#333333;
+    --text-200:#5c5c5c;
+    --bg-100:#DFF0D8;
+    --bg-200:#d5e6ce;
+    --bg-300:#adbda7;
+      
+}
+
+
+.adoption {
+    gap: 2rem;
+    height: 100vh;
+    background-color: var(--bg-100);
+    display: flex;
+    flex-direction: column ;
+    padding: 10% 10%;
+   
+}
+
+.form-box {
+    gap: 2rem ;
+    width: 98%;
+    height: 150px;
+    padding: 20px 2%;
+    background-color: var(--bg-200);
+
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.ls-custom-select{
+    display: flex;
+    gap: 2rem;
+}
+
+.ls-select {
+    border-radius: 5px;
+    width: 30vw;
+    height: 40px;
+    color: black;
+    font-size: 1rem;
+
+}
+
+option {
+    background-color: var(--bg-100);
+    color: black;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+
+
+
+.search {
+    background-color: var(--primary-100);
+    width: 30vw;
+    height: 40px;
+    border: 1px solid var(--text-100);
+    border-radius: 10px;
+}
+
+.search:hover {
+    background-color: var(--accent-100);
+    cursor: pointer;
+    font-size: 1.05rem;
+}
